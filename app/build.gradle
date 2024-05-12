@@ -11,7 +11,7 @@ plugins {
 
 android {
     namespace 'com.coding.meet.todo_app'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.coding.meet.todo_app"
@@ -51,6 +51,7 @@ dependencies {
 
     //Lottie
     implementation "com.airbnb.android:lottie:6.1.0"
+    implementation 'androidx.activity:activity:1.8.0'
 
     // Room
     def room_version = "2.5.2"
